@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "name": "credit-card-validator",
+  "description": "",
+  "version": "1.0.0",
+  "workspaces": [
+    "workspaces/**"
+  ],
+  "scripts": {},
+  "keywords": [],
+  "license": "ISC"
+}

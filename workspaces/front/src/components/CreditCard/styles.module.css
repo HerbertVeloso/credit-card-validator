@@ -1,0 +1,40 @@
+.card {
+  width: 21.875rem;
+  max-width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 1.25rem;
+  background-image: linear-gradient(25deg, #93278F 10%, #29ABE2 70%);
+  padding: 2.125rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #FFF;
+}
+
+.card__number {
+  font-weight: 500;
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+
+.card__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card__row p {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+.card__row p span {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  text-transform: capitalize;
+}
